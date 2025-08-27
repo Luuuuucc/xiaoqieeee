@@ -14,6 +14,15 @@ const noTexts = [
     "不行:("
 ];
 
+//Yes 按钮的文字变化
+const yesTexts = [
+    "更换心情车标", 
+    "生成自制地图", 
+    "用新鲜事查找附近新店", 
+    "找附近的图书馆", 
+    "和鹅一起去哪都行"
+];
+
 // No 按钮点击事件
 noButton.addEventListener("click", function() {
     clickCount++;
@@ -31,6 +40,11 @@ noButton.addEventListener("click", function() {
     mainImage.style.transform = `translateY(-${moveUp}px)`;
     questionText.style.transform = `translateY(-${moveUp}px)`;
 
+    //Yes 文案变化
+   if (clickCount <= 5) {
+        yesButton.innerText = yesTexts[clickCount - 1];
+    }
+   
     // No 文案变化（前 5 次变化）
     if (clickCount <= 5) {
         noButton.innerText = noTexts[clickCount - 1];
@@ -57,3 +71,4 @@ yesButton.addEventListener("click", function() {
     document.body.style.overflow = "hidden";
 
 });
+

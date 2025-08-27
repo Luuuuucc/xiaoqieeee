@@ -16,10 +16,10 @@ const noTexts = [
 
 //Yes 按钮的文字变化
 const yesTexts = [
-    "更换心情车标", 
-    "搞个自制地图", 
+    "换车标", 
+    "自制地图", 
     "搜附近新店", 
-    "找附近图书馆", 
+    "去哪都行", 
     "去哪都行"
 ];
 
@@ -71,6 +71,7 @@ yesButton.addEventListener("click", function() {
     document.body.style.overflow = "hidden";
 
 });
+
 
 
 

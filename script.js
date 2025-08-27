@@ -51,11 +51,11 @@ noButton.addEventListener("click", function() {
     }
 
     // 图片变化（前 5 次变化）
-    if (clickCount === 1) mainImage.src = "images/shocked.png"; // 震惊
-    if (clickCount === 2) mainImage.src = "images/think.png";   // 思考
-    if (clickCount === 3) mainImage.src = "images/angry.png";   // 生气
-    if (clickCount === 4) mainImage.src = "images/crying.png";  // 哭
-    if (clickCount >= 5) mainImage.src = "images/crying.png";  // 之后一直是哭
+    if (clickCount === 1) mainImage.src = "images/shaaaa.png"; // 震惊
+    if (clickCount === 2) mainImage.src = "images/ohyeah.png";   // 思考
+    if (clickCount === 3) mainImage.src = "images/shengqi.png";   // 生气
+    if (clickCount === 4) mainImage.src = "images/crray.png";  // 哭
+    if (clickCount >= 5) mainImage.src = "images/crray.png";  // 之后一直是哭
 
 });
 
@@ -64,11 +64,12 @@ yesButton.addEventListener("click", function() {
     document.body.innerHTML = `
         <div class="yes-screen">
             <h1 class="yes-text">!!!太好啦！和鹅一起出去玩吧～ ( >᎑<)♡︎ᐝ</h1>
-            <img src="images/hug.png" alt="拥抱" class="yes-image">
+            <img src="images/heart.png" alt="拥抱" class="yes-image">
         </div>
     `;
 
     document.body.style.overflow = "hidden";
 
 });
+
 

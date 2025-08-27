@@ -18,8 +18,8 @@ const noTexts = [
 const yesTexts = [
     "更换心情车标", 
     "搞个自制地图", 
-    "用新鲜事找附近新店", 
-    "找附近的图书馆", 
+    "搜附近新店", 
+    "找附近图书馆", 
     "去哪都行"
 ];
 
@@ -71,6 +71,7 @@ yesButton.addEventListener("click", function() {
     document.body.style.overflow = "hidden";
 
 });
+
 
 
 

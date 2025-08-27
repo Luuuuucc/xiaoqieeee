@@ -19,8 +19,8 @@ const yesTexts = [
     "换车标", 
     "自制地图", 
     "搜附近新店", 
-    "去哪都行", 
-    "去哪都行"
+    "好呀", 
+    "好！！"
 ];
 
 // No 按钮点击事件
@@ -71,6 +71,7 @@ yesButton.addEventListener("click", function() {
     document.body.style.overflow = "hidden";
 
 });
+
 
 
 
